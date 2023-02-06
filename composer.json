@@ -1,0 +1,5 @@
+{
+    "require": {
+        "diglactic/laravel-breadcrumbs": "^8.0"
+    }
+}
