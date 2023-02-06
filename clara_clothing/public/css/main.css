@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto,sans-serif;
+}
+
+/*Navigation Bar CSS*/
+
+.navbar{
+    margin-top: 2rem;
+}
+
+.navbar .navbar-brand{
+    margin-left: 2rem;
+}
+
+.navbar-nav .user-account{
+    position: absolute;
+    margin-left: 35rem;
+    z-index: 1;
+}
+
+.navbar-nav .user-icon {
+    position: absolute;
+    margin-left: 5rem;
+    margin-top: -2.7rem;
+}
+
+.navbar ul li a{
+    color: white !important;
+}
+
+.navbar ul .dropdown-menu li a{
+    color: black !important;
+}
+/*Banner Image CSS*/
+
+.banner-image{
+    background-image: url('../img/banner-img.jpg');
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),url('../img/banner-img.jpg');  /* Chrome 10-25, Safari 5.1-6 */
+    background-size: cover;
+}
+
+.banner-image .line{
+    position: absolute;
+    top: 6rem;
+    width: 85%;
+    border: 0.1px solid rgb(255 255 255 / 20%);
+    display:inline-block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(255 255 255 / 20%);
+    margin: 1em 0;
+    padding: 0;
+}
+
+.banner-image .titles{
+    margin-top: 5rem;
+}
+
+.banner-image .title-one h5{
+    color: white;
+    font-weight: 700;
+}
+
+.banner-image .title-two h1{
+    padding-top: 2.5rem;
+    color: white;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+
